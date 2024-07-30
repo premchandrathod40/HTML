@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+    </style>
+</head>
+<body>
+    <h1>Table Create</h1>
+    <table >
+<thead>
+<tr>
+    <th>Name</th>
+    <th>Post</th>
+    <th>Mobile No</th>
+    <th>Age</th>
+    <th>Email Id</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Ramesh</td>
+    <td>Java Devloper</td>
+    <td>9933448811</td>
+    <td>30</td>
+    <td>ramesh12@gmail.com</td>
+</tr>
+<tr>
+    <td>Raghav</td>
+    <td>PHP Devloper</td>
+    <td>9033448811</td>
+    <td>31</td>
+    <td>radhav12@gmail.com</td>
+</tr>
+<tr>
+    <td>Mahesh</td>
+    <td>SQL Devloper</td>
+    <td>9833448811</td>
+    <td>29</td>
+    <td>mahesh12@gmail.com</td>
+</tr>
+</tbody>
+
+    </table>
+    <h2>create Form</h2>
+    <form>
+        <label for="name">Name</label>
+<div>
+    <input type="text" name="myname" id="name">
+</div>
+<br>
+<div>
+    Role:<input type="text" name="myRole">
+</div>
+<br>
+<div>
+    Email:<input type="email" name="MyEmail">
+</div>
+<br>
+<div>
+    Date:<input type="date" name="date">
+</div>
+<br>
+<div>
+    Bonus:<input type="number" name="mybonus">
+</div>
+<br>
+<div>
+    Are you eligiable:<input type="checkbox" value="myeligibility" checked>
+</div>
+<br>
+<div>
+    Gender:Male<input type="radio" value="gender"> Female<input type="radio" value="gender" >
+</div>
+<br>
+Write yourSelf:<textarea name="text" cols="50" rows="10"></textarea>
+<br>
+<label for="car">Car</label>
+<select name="mycar" id="car">
+<option value="Maruti">maruti</option>
+<option value="Indica">Indica</option>
+<option value="indigo" selected>maruti</option>
+</select>
+<br>
+<div>
+    <input type="submit" value="submit now"><input type="reset" value="Reset Now">
+</div>
+
+    </form>
+
+</body>
+</html>
